@@ -44,5 +44,21 @@ p {text-align: center;
   .nyc{
     padding-bottom: 90px;
   }
+
+  .six{
+    font-family: 'RobotoMono-Regular';
+  }
+
+  .btstext{
+    font-family: 'RobotoMono-Regular';
+    margin-top: 80px;
+  }
+
+  .btspics{
+    height: 392px;
+    weight: 1228px;
+    margin-top: 40px;
+    align-items: center
+  }
   
 
