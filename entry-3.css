@@ -1,14 +1,24 @@
-div{
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,500;1,200;1,400;1,500&display=swap');
+
+.banner{
 	background-color: darkcyan;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    padding-left: 9%;
+    padding-top: 1%;
+    color: white;
 	left: 0px;
+    right:0px;
 	position: fixed;
 	top: 0px;
-	width: 10%;
+	width: 100%;
+    height: 36px
 }
 
 h1{
     color:darkcyan;
-    margin-top: 0%;
+    margin-top: 5%;
     margin-bottom:0px;
     font-size: 100px;
     text-align: center;
@@ -49,16 +59,16 @@ p {text-align: center;
 
   }
 
-  .nyc{
+  .place{
     padding-bottom: 90px;
   }
 
   .six{
-    font-family: 'RobotoMono-Regular';
+    font-family: 'Roboto Mono', monospace;
   }
 
   .btstext{
-    font-family: 'RobotoMono-Regular';
+    font-family: 'Roboto Mono', monospace;
     margin-top: 80px;
   }
 
