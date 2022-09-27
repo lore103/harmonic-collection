@@ -61,18 +61,29 @@ p {text-align: center;
     padding-left: 500px;
     padding-right: 300px;
     padding-bottom: 50px
+}
 
-  }
+.date{
+    font-family: 'Roboto Mono', monospace;
+    color: darkcyan;
+    font-style: italic;
+}
+
+.camera{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
   .filmtype{
-    font-family: 'RobotoMono-Regular'
+    font-family: 'Roboto Mono', monospace;
 
   }
 
   .place{
+    font-family: 'Roboto Mono', monospace;
     padding-bottom: 90px;
   }
 
-  .six{
+  .texttitle{
     font-family: 'Roboto Mono', monospace;
   }
 
@@ -162,3 +173,7 @@ p {text-align: center;
     height: 36px
   }
   
+.imagetext{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 200;
+}
