@@ -81,6 +81,7 @@ p {text-align: center;
   .place{
     font-family: 'Roboto Mono', monospace;
     padding-bottom: 90px;
+    color: darkcyan;
   }
 
   .texttitle{
