@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+ <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="entry-5.css" rel="stylesheet">
+    <div class="banner" >
+     riksfilmpiks
+    </div>
+   <h1 class="header" >
+    Nostalgic Adventures (rik‘s version)
+   </p>
+   <p class="gif"><img src="entry4gif.gif"/> </p> 
+
+   <p class="date"> 
+         Date Taken: Jul.18.2022
+    </span></p>
+
+    <p class="camera">
+        Camera: Minolta Hi-Matic SD2
+    </p>
+
+    <p class="filmtype"> Film Used: <a href="https://www.fujifilm.com/us/en/consumer/film-quicksnap/film/superia-400">Fujifilm Fujicolor Superia X-TRA 400 Color </a></p>
+    
+    <p class="place"> 
+            &#9906; Hong Kong
+    </p>
+
+    
+
+ </head>
+
+<body>
+    <div class="container">
+        <div>
+            <img src="20220315_220534.jpg" class="image">
+        </div>
+        <div class="text">
+    
+    <p class="texttitle"> Nostalgic Adventures (rik's version) </p>
+    
+    <p class="imagetext">
+        I took this photo during this summer in Hong Kong.  I associate a lot of my memories with this park of this playground and to 
+        this day it’s still my favourite park ever.  When I moved here from the US when I was 4, I would go to the playground with my 
+        dad every weekend and sometimes we would go through the park to get to the library.  Whenever my friends come visit me in that 
+        area I would also bring them here.  Every mid-autumn festival my dad and I would light our lanterns and walk around the park.  
+        I even made a still-life watercolour piece for my portfolio of the playground in the park.  This park has a very special place in my heart and seeing it again this summer brings back a lot of memories.  Seeing it again 
+        makes me reminisce the times and feelings of experiencing things for the first time as a child, like going to the playground or 
+        lighting up lanterns or even meeting up with a boy.  I know I’m still young and I have so much I have yet to experience.  
+        However, there is so much adrenaline and excitement when moments like this happen when you are younger.  </p1>
+    </div>
+    </div>
+  
+        <details>
+        <p>
+         <summary class="clicktosee">  Click to see the watercolour piece </summary>
+         <p> <img src="Nostalgic Adventures.jpg">  
+         </p>
+        </details>
+    
+    <p class="btstext"> 
+        More Pics from the Concert!
+    </p>
+
+    <div class="row">
+        <div class="column">
+          <img src="000443820009.jpg" alt="pic1" style="width:70%">
+        </div>
+        <div class="column">
+          <img src="000443820007.jpg" alt="pic2" style="width:70%">
+        </div>
+        <div class="column">
+          <img src="000443820001.jpg" alt="pic3" style="width:70%">
+        </div>
+      </div>
+
+      <div class="rowtwo">
+        <div class="columntwo">
+          <img src="20221001_143428.jpg" alt="pic4" style="width:70%">
+        </div>
+        <div class="columntwo">
+          <img src="000443820005.jpg" alt="pic5" style="width:70%">
+        </div>
+        <div class="columntwo">
+          <img src="000443820003.jpg" alt="pic6" style="width:70%">
+        </div>
+      </div>
+
+    <p class="link">
+         → Visit <a href="https://www.instagram.com/rikpiktures/"> @rikpiktures </a> for more film pics!!
+        </p>
+    
+
+    <div class="bottombanner" >
+        riksfilmpiks
+    </div>
+
+
+    
+
+</body>
+</html>
