@@ -49,6 +49,35 @@
         However, there is so much adrenaline and excitement when moments like this happen when you are younger.  </p1>
     </div>
     </div>
+    
+    <p class="altpicstext"> 
+        Alternative Photo(s)
+    </p>
+
+
+    <div class="altpics">
+        <div class="column">
+            <img src="06810027.jpg" alt="pic1" style="width:60%">
+        </div>
+        <div class="column">
+            <img src="06810027 (2).jpg" alt="pic2" style="width:60%">
+        </div>
+        <div class="column">
+            <img src="06810027 (1).jpg" alt="pic3" style="width:60%">
+        </div>
+    </div>
+
+    <div class="alternative">
+        <div>
+            <img src="06810027 (1) cropped.jpg" class="picture">
+        </div>
+    
+    <p class="altbodytext">
+        For this entry, I thought about using this photo because of how solemn the playground looks in the park.
+    I experimented with the hues on this photo and came out with very unique effects.  On the left is the original
+hue but my favourite one has to be the one on the most left above.</p1>
+    </div>
+    </div>
    
     <div class="container2">
         <img src="nostalgic Adventures.jpg" alt="Avatar" class="watercolour" style="width:100%">
@@ -57,35 +86,7 @@
         </div>
       </div>      
 
-
-    <p class="btstext"> 
-        More Pics from the Concert!
-    </p>
-
-    <div class="row">
-        <div class="column">
-          <img src="000443820009.jpg" alt="pic1" style="width:70%">
-        </div>
-        <div class="column">
-          <img src="000443820007.jpg" alt="pic2" style="width:70%">
-        </div>
-        <div class="column">
-          <img src="000443820001.jpg" alt="pic3" style="width:70%">
-        </div>
-      </div>
-
-      <div class="rowtwo">
-        <div class="columntwo">
-          <img src="20221001_143428.jpg" alt="pic4" style="width:70%">
-        </div>
-        <div class="columntwo">
-          <img src="000443820005.jpg" alt="pic5" style="width:70%">
-        </div>
-        <div class="columntwo">
-          <img src="000443820003.jpg" alt="pic6" style="width:70%">
-        </div>
-      </div>
-
+      
     <p class="link">
          → Visit <a href="https://www.instagram.com/rikpiktures/"> @rikpiktures </a> for more film pics!!
         </p>
