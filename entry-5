@@ -7,7 +7,7 @@
      riksfilmpiks
     </div>
    <h1 class="header" >
-    Nostalgic Adventures (rik‘s version)
+    Nostalgic Adventures 
    </p>
    <p class="gif"><img src="entry5gif.gif"/> </p> 
 
@@ -36,9 +36,9 @@
         </div>
         <div class="text">
     
-    <p class="texttitle"> Nostalgic Adventures (rik's version) </p>
+    <p class="texttitle"> Nostalgic Adventures </p>
     
-    <p class="imagetext">
+    <p class="bodytext">
         I took this photo during this summer in Hong Kong.  I associate a lot of my memories with this park of this playground and to 
         this day it’s still my favourite park ever.  When I moved here from the US when I was 4, I would go to the playground with my 
         dad every weekend and sometimes we would go through the park to get to the library.  Whenever my friends come visit me in that 
@@ -49,14 +49,15 @@
         However, there is so much adrenaline and excitement when moments like this happen when you are younger.  </p1>
     </div>
     </div>
-  
-        <details>
-        <p>
-         <summary class="clicktosee">  Click to see the watercolour piece </summary>
-         <p> <img src="Nostalgic Adventures.jpg">  
-         </p>
-        </details>
-    
+   
+    <div class="container2">
+        <img src="nostalgic Adventures.jpg" alt="Avatar" class="watercolour" style="width:100%">
+        <div class="middle">
+          <div class="hovertext">'Nostalgic Adventures', 2020, on watercolour</div>
+        </div>
+      </div>      
+
+
     <p class="btstext"> 
         More Pics from the Concert!
     </p>
