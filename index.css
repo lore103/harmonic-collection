@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,500;1,200;1,400;1,500&display=swap');
+.banner{
+	background-color:black;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    padding-left: 9%;
+    padding-top: 1%;
+    color: white;
+	left: 0px;
+    right:0px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+    height: 35px;
+    border-bottom: 50px;
+}
+section {
+    margin-top: 65px;
+    --columns: 12;
+    display: grid;
+    grid-template-columns: repeat(var(--columns), 1fr);
+    gap: 10px
+}
+
+img{
+    height: 105px;
+}
+
+p {
+    display: block;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.grow img{
+    transition: 1s ease;
+    position:absolute;
+    -webkit-filter: opacity(0%);
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+        
+    .grow img:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+    -webkit-filter: brightness(100%);
+
+    }
+
+.grow{
+    position:static;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 90px;
+    font-weight: bolder;
+    text-align: center;
+    outline-style: dashed;
+
+}
+
+@media (min-width: 400px) {
+    section { --columns: 4; 
+    }
+}
+
+@media (min-width: 600px) {
+    section { --columns: 6; 
+    }
+}
+
+@media (min-width: 800px) {
+    section { --columns: 8; 
+    }
+}
+    
+@media (min-width: 1200px) {
+    section { --columns: 12; 
+    }
+}
