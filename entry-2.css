@@ -1,11 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,500;1,200;1,400;1,500&display=swap');
+
+.banner{
+	background-color:rgb(152, 178, 183);
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    padding-left: 9%;
+    padding-top: 1%;
+    color: white;
+	 left: 0px;
+    right:0px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+    height: 36px;
+    
+}
+
+.banner a:link {
+color: white;
+text-decoration: none;
+}
+
+.banner a:visited {
+  color: white;
+  text-decoration: none;
+  }
+
+
 h1{
-    color: chocolate;
-    margin-top: 0%;
+    color: rgb(152, 178, 183);
+    margin-top: 50px;
     margin-bottom:0px;
-    font-size: 100px;
+    font-size: 200px;
     text-align: center;
     font-family: 'Helvetica';
-    font-weight: bold;
+    font-weight: bolder;
     display: inline-block
 }
 
@@ -15,27 +44,29 @@ p {text-align: center;
 }
 
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: center
-  }
-  img {
-    max-width: 500%
-  }
-  .image {
-    flex-basis: 500%;
-    margin-left:250px;
-    height: 180%;
-    width: 180%;
-    padding-bottom: 50px;
-  }
-  .text {
-    font-size: 15px;
-    padding-left: 500px;
-    padding-right: 300px;
-    padding-bottom: 50px
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+img {
+  max-width: 500%
+}
+.image {
+  flex-basis: 500%;
+  margin-left:250px;
+  height: 180%;
+  width: 180%;
+  padding-bottom: 50px;
+}
 
-  }
+.text {
+  font-size: 15px;
+  padding-left: 500px;
+  padding-right: 300px;
+  padding-bottom: 50px
+}
+
+
   .filmtype{
     font-family: 'RobotoMono-Regular'
 
@@ -54,11 +85,49 @@ p {text-align: center;
     margin-top: 80px;
   }
 
-  .btspics{
-    height: 392px;
-    weight: 1228px;
-    margin-top: 40px;
-    align-items: center
+  .row {
+    display: flex;
+    align-content: center;
+    margin-top:70px;
+    margin-bottom: 60px;
+    width: 110%;
   }
   
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+    
+  }
 
+  .ig{
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: 100px;
+  }
+
+  .bottombanner{
+    background-color: rgb(152, 178, 183);
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    padding-left: 9%;
+    padding-top: 1%;
+    color: rgb(152, 178, 183);
+	left: 0px;
+    right:0px;
+	position: fixed;
+    bottom: 0px;
+	width: 100%;
+    height: 36px
+  }
+
+  @media (max-width: 900px) {
+    body{
+        width:100%;
+
+        }  
+@media (max-width: 1200px) {
+    img, {
+
+        height: 100%;
+        text-align: center;
+        
+        }  

@@ -16,6 +16,12 @@
     height: 36px;
 }
 
+.banner a:link { text-decoration: none; color: white;}
+.banner a:visited { text-decoration: none; color: white;}
+.banner a:hover { text-decoration: none; color: white;}
+.banner a:active { text-decoration: none; color: white;}
+                                     
+
 h1{
     color:rgb(81, 175, 226);
     margin-top: 360px;
@@ -50,6 +56,14 @@ p {text-align: center;
     padding-bottom: 50px;
   }
 
+  .text {
+    font-size: 15px;
+    padding-left: 500px;
+    padding-right: 300px;
+    padding-bottom: 50px
+}
+
+
 .then{
     right: 10px
 }
@@ -58,12 +72,6 @@ p {text-align: center;
     left: 10px
 }
 
-  .text {
-    font-size: 15px;
-    padding-left: 500px;
-    padding-right: 300px;
-    padding-bottom: 50px
-}
 
 .date{
     font-family: 'Roboto Mono', monospace;
