@@ -16,6 +16,13 @@
     height: 36px;
 }
 
+.banner a:link { text-decoration: none; color: white;}
+.banner a:visited { text-decoration: none; color: white;}
+.banner a:hover { text-decoration: none; color: white;}
+.banner a:active { text-decoration: none; color: white;}
+                                     
+
+
 h1{
     color:orangered;
     margin-top: 340px;
@@ -56,6 +63,12 @@ p {text-align: center;
     padding-right: 300px;
     padding-bottom: 50px;
     column-gap: 20px;
+}
+
+.bodytext{
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 200;
+  
 }
 
 .alternative {
@@ -159,11 +172,7 @@ p {text-align: center;
     font-family: 'Roboto Mono', monospace;
   }
 
-  .bodytext{
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 200;
-    
-}
+
 
   .bottombanner{
     background-color: orangered;
