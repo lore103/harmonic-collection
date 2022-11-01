@@ -64,14 +64,6 @@ p {text-align: center;
 }
 
 
-.then{
-    right: 10px
-}
-
-.now{
-    left: 10px
-}
-
 
 .date{
     font-family: 'Roboto Mono', monospace;
@@ -177,13 +169,6 @@ p {text-align: center;
     font-family: 'Roboto Mono', monospace;
     font-weight: 200;
     
-}
-
-.clicktosee{
-    font-family: 'Roboto Mono', monospace;
-    padding-top: 80px;
-    padding-bottom: 100px;
-    font-size: medium;
 }
 
 
