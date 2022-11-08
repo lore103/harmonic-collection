@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,500;1,200;1,400;1,500&display=swap');
+
+
+.banner{
+	background-color: #41acaf;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    padding-left: 9%;
+    padding-top: 1%;
+    color: white ;
+	left: 0px;
+    right:0px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+    height: 36px;
+}
+
+.banner a:link { text-decoration: none; color: white;}
+.banner a:visited { text-decoration: none; color: white;}
+.banner a:hover { text-decoration: none; color: white;}
+.banner a:active { text-decoration: none; color: white;}
+                                     
+
+h1{
+    color:#41acaf;
+    margin-top: 60px;
+    font-size: 160px;
+    text-align: center;
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-style: italic;
+
+}
+
+.blinking{
+  animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+  0%{     color: #41acaf;    }
+  49%{    color: #41acaf; }
+  60%{    color: #0e5970; }
+  99%{    color:#0e5970;  }
+  100%{   color: #41acaf;    }
+}
+
+p {text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  img {
+    max-width: 500%
+  }
+  .image {
+    flex-basis: 500%;
+    margin-left:250px;
+    height: 180%;
+    width: 180%;
+    padding-bottom: 50px;
+  }
+
+  .text {
+    font-size: 15px;
+    padding-left: 500px;
+    padding-right: 300px;
+    padding-bottom: 50px
+}
+
+.imagetext{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 200;
+    
+}
+
+
+
+.date{
+    font-family: 'Roboto Mono', monospace;
+    color: #41acaf;
+    font-style: italic;
+    font-size: medium;
+}
+
+.camera{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-size: medium;
+}
+  .filmtype{
+    font-family: 'Roboto Mono', monospace;
+    font-size: medium;
+
+  }
+
+  .place{
+    font-family: 'Roboto Mono', monospace;
+    padding-bottom: 250px;
+    color: #41acaf;
+    font-size: medium;
+  }
+
+  .texttitle{
+    font-family: 'Roboto Mono', monospace;
+  }
+
+  .btstext{
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 200px;
+    font-size:medium;
+  }
+
+  .row {
+    display: flex;
+    align-content: center;
+    margin-left: 200px;
+    margin-top:70px;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+    
+  }
+
+  .columntwo {
+    flex: 33.33%;
+    padding: 5px;
+    
+  }
+
+  .thennow {
+    display: flex;
+    align-content: center;
+    margin-left: 0px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+  }
+  
+  .summarycolumn {
+    flex: 50%;
+    padding: 0px;
+    
+  }
+
+  .link{
+    font-family: 'Roboto Mono', monospace;
+    font-size: medium;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+  }
+
+  .bottombanner{
+    background-color: #41acaf;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    padding-left: 9%;
+    padding-top: 1%;
+    color: #41acaf;
+	left: 0px;
+    right:0px;
+	position: fixed;
+    bottom: 0px;
+	width: 100%;
+    height: 36px
+  }
+  
+.imagetext{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 200;
+    
+}
+
+@media screen and (max-width: 400px) {
+
+  h1{
+      font-size: 30px;
+      text-align: center;
+  }
+  .container{
+      display: block;
+  }
+
+  .image{
+    height: 70%;
+    width: 70%;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  body{
+      width:100%;
+  }
+  h1{
+      font-size: 50px;
+      text-align: center;
+  }
+  .container{
+      display: block;
+  }
+
+  .image{
+    height: 80%;
+    width: 80%;
+  }
+
+  .text {
+    padding-left: 0px;
+      padding-right: 0px;
+      margin-left: 100px;
+  }
+
+}
+
+@media screen and (max-width: 900px) {
+    body{
+        width:100%;
+    }
+    h1{
+        font-size: 130px;
+        text-align: center;
+
+    }
+    .container{
+        display: block;
+    }
+
+    .image{
+      height: 70%;
+      width: 70%;
+      align-items: center;
+      margin-left: 120px;
+}  
+
+.text {
+  padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 50px;
+}
+
+
+@media (max-width: 1200px) {
+   
+  img{
+        width:100%;
+        text-align: center;
+        
+        }  
+    }
