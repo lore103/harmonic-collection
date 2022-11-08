@@ -126,11 +126,34 @@ p {text-align: center;
     
   }
 
-  .columntwo {
-    flex: 33.33%;
-    padding: 5px;
+  .snapshots{
+    margin-top: 130px;
+    --columns: 5;
+    display:grid;
+    grid-template-columns: repeat(var(--columns), 1fr);
+    align-content: center;
+    gap: 5px;
+    margin-left: 200px;
+  }
+
+  .snaps {
+    align-content: center;
+    width: 15%;
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
     
   }
+
+  @keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
 
   .thennow {
     display: flex;
