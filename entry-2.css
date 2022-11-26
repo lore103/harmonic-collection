@@ -7,11 +7,11 @@
     padding-left: 9%;
     padding-top: 1%;
     color: white;
-	 left: 0px;
+	  left: 0px;
     right:0px;
-	position: fixed;
-	top: 0px;
-	width: 100%;
+	  position: fixed;
+	  top: 0px;
+	  width: 100%;
     height: 36px;
     
 }
@@ -31,16 +31,46 @@ h1{
     color: rgb(152, 178, 183);
     margin-top: 50px;
     margin-bottom:0px;
-    font-size: 200px;
+    font-size: 100px;
     text-align: center;
-    font-family: 'Helvetica';
+    font-family: 'roboto Mono', monospace;
+    
+    font-style: italic;
     font-weight: bolder;
-    display: inline-block
 }
 
+.gif{
+  width: 100%;
+}
+
+.date{
+  font-family: 'Roboto Mono', monospace;
+  color: rgb(152, 178, 183);
+  font-style: italic;
+  font-size: medium;
+  text-align: center;
+}
+
+.camera{
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  font-size: medium;
+}
+.filmtype{
+  font-family: 'Roboto Mono', monospace;
+  font-size: medium;
+
+}
+
+.place{
+  font-family: 'Roboto Mono', monospace;
+  padding-bottom: 250px;
+  color: rgb(152, 178, 183);
+  font-size: medium;
+}
 
 p {text-align: center;
-    background color: gray
+    background color: gray;
 }
 
 .container {
@@ -124,10 +154,74 @@ img {
         width:100%;
 
         }  
-@media (max-width: 1200px) {
-    img, {
+
+      }
+  @media (max-width: 1200px) {
+    img {
 
         height: 100%;
         text-align: center;
         
         }  
+
+      }
+  @media (max-width: 400px) {
+    h1{
+    font-size: 100px;
+    text-align: center;
+    width: 400px;
+    }
+
+    .gif{
+      width:19%;
+    }
+
+    .date{
+      font-family: 'Roboto Mono', monospace;
+      color: rgb(152, 178, 183);
+      font-style: italic;
+      font-size: medium;
+      text-align: center;
+      width: 400px;
+    }
+    
+    .camera{
+      font-family: 'Roboto Mono', monospace;
+      text-align: center;
+      font-size: medium;
+      width: 400px;
+    }
+
+    .filmtype{
+      font-family: 'Roboto Mono', monospace;
+      font-size: medium;
+      width: 400px;
+    
+    }
+    
+    .place{
+      font-family: 'Roboto Mono', monospace;
+      padding-bottom: 250px;
+      color: rgb(152, 178, 183);
+      font-size: medium;
+      width: 400px;
+    }
+
+    .container {
+      display: block;
+
+    }
+    .image {
+      padding-bottom: 50px;
+      margin-left: 0%;
+      width: 400px;
+    }
+    
+    .text {
+      font-size: 15px;
+      padding-bottom: 50px;
+      width: 350px;
+      padding-left: 0%;
+    }
+  }
+
